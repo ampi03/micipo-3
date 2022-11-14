@@ -1,0 +1,19 @@
+ion-input.custom {
+    --background: #373737;
+    --color: #fff !important;
+    --placeholder-color: #ddd;
+    --placeholder-opacity: .8;
+  
+    --padding-bottom: 10px;
+    --padding-end: 5px;
+    --padding-start: 5px;
+    --padding-top: 10px;
+    border-radius: 9px;
+    width: 100px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+ion-header ion-toolbar .menu-arriba{
+    --background: #ff0f0f !important;
+}
