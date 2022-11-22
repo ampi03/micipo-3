@@ -1,0 +1,26 @@
+
+.icon{
+width: 100%;
+height: 112px;
+left: 119px;
+top: 98px;
+text-align: center;
+margin-top: 30px;
+}
+ion-content{
+    width: 100%;
+}
+ion-item{
+margin: 30px;
+border-radius: 40px;
+position: relative;}
+
+.iniciar{
+    position: fixed;
+    right: 10px;
+    margin:10px;
+    border-radius: 100px;
+}
+:hover .iniciar{
+    background-color: #a8cf453b;
+}
