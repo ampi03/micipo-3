@@ -15,6 +15,12 @@ const routes: Routes = [
     path: 'footer',
     loadChildren: () => import('./paginas/footer/footer.module').then( m => m.FooterPageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./paginas/login/login.module').then( m => m.LoginPageModule)
+  },
+
+
 ];
 
 @NgModule({
