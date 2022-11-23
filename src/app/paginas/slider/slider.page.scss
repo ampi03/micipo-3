@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+ion-content{
+  --ion-background-color:#fff;
+}
+
+.background-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url(../../../assets/micipo1.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button{
+  margin-top: 200px;
+  padding-top: 10px;
+  text-align: center;
+  background:transparent;
+}
+ion-button{
+  width: 150px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family:'Caveat', cursive;;
+  --border-radius: 40px;
+  --background: #A8CF45;
+  color: rgb(0, 0, 0);
+  text-transform: none;
+}
+
+.slide1{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url(../../../assets/micipo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide2{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url(../../../assets/micipo3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide3{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url(../../../assets/micipo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+.swiper-slide {
+  display: block;
+}
+
+.swiper-slide h2 {
+  margin-top: 2.8rem;
+}
+
+.swiper-slide img {
+  max-height: 50%;
+  max-width: 80%;
+  margin: 60px 0 40px;
+  pointer-events: none;
+}

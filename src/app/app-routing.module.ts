@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'navbar',
+    redirectTo: 'slider',
     pathMatch: 'full'
   },
   {
@@ -19,6 +19,11 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./paginas/login/login.module').then( m => m.LoginPageModule)
   },
+  {
+    path: 'slider',
+    loadChildren: () => import('./paginas/slider/slider.module').then( m => m.SliderPageModule)
+  },
+
 
 
 ];
